@@ -622,3 +622,5 @@
 2020-06-03T01:14:27.083+0200 I  NETWORK  [conn192] received client metadata from 127.0.0.1:54287 conn192: { driver: { name: "nodejs|Mongoose", version: "3.5.7" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "19.5.0" }, platform: "'Node.js v12.16.2, LE (unified)", version: "3.5.7|5.9.16" }
 2020-06-03T01:14:27.087+0200 I  NETWORK  [listener] connection accepted from 127.0.0.1:54288 #193 (3 connections now open)
 2020-06-03T01:14:27.088+0200 I  NETWORK  [conn193] received client metadata from 127.0.0.1:54288 conn193: { driver: { name: "nodejs|Mongoose", version: "3.5.7" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "19.5.0" }, platform: "'Node.js v12.16.2, LE (unified)", version: "3.5.7|5.9.16" }
+2020-06-03T01:20:27.087+0200 I  NETWORK  [conn192] end connection 127.0.0.1:54287 (2 connections now open)
+2020-06-03T01:20:27.087+0200 I  NETWORK  [conn193] end connection 127.0.0.1:54288 (1 connection now open)
