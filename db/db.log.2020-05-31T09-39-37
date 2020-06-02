@@ -1,0 +1,67 @@
+2020-05-31T11:37:01.084+0200 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2020-05-31T11:37:01.086+0200 W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+2020-05-31T11:37:01.086+0200 I  CONTROL  [initandlisten] MongoDB starting : pid=900 port=27017 dbpath=/Users/enzo/Desktop/nest-app/db/data 64-bit host=enzos-Mac-mini.homenet.telecomitalia.it
+2020-05-31T11:37:01.086+0200 I  CONTROL  [initandlisten] db version v4.2.6
+2020-05-31T11:37:01.086+0200 I  CONTROL  [initandlisten] git version: 20364840b8f1af16917e4c23c1b5f5efd8b352f8
+2020-05-31T11:37:01.086+0200 I  CONTROL  [initandlisten] allocator: system
+2020-05-31T11:37:01.086+0200 I  CONTROL  [initandlisten] modules: none
+2020-05-31T11:37:01.086+0200 I  CONTROL  [initandlisten] build environment:
+2020-05-31T11:37:01.086+0200 I  CONTROL  [initandlisten]     distarch: x86_64
+2020-05-31T11:37:01.086+0200 I  CONTROL  [initandlisten]     target_arch: x86_64
+2020-05-31T11:37:01.086+0200 I  CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "db/data" }, systemLog: { destination: "file", path: "db/db.log" } }
+2020-05-31T11:37:01.087+0200 I  STORAGE  [initandlisten] Detected data files in /Users/enzo/Desktop/nest-app/db/data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2020-05-31T11:37:01.087+0200 I  STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3584M,cache_overflow=(file_max=0M),session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000,close_scan_interval=10,close_handle_minimum=250),statistics_log=(wait=0),verbose=[recovery_progress,checkpoint_progress],
+2020-05-31T11:37:01.524+0200 I  STORAGE  [initandlisten] WiredTiger message [1590917821:524801][900:0x11f5acdc0], txn-recover: Recovering log 4 through 5
+2020-05-31T11:37:01.558+0200 I  STORAGE  [initandlisten] WiredTiger message [1590917821:558162][900:0x11f5acdc0], txn-recover: Recovering log 5 through 5
+2020-05-31T11:37:01.607+0200 I  STORAGE  [initandlisten] WiredTiger message [1590917821:607353][900:0x11f5acdc0], txn-recover: Main recovery loop: starting at 4/5248 to 5/256
+2020-05-31T11:37:01.672+0200 I  STORAGE  [initandlisten] WiredTiger message [1590917821:672156][900:0x11f5acdc0], txn-recover: Recovering log 4 through 5
+2020-05-31T11:37:01.712+0200 I  STORAGE  [initandlisten] WiredTiger message [1590917821:712035][900:0x11f5acdc0], txn-recover: Recovering log 5 through 5
+2020-05-31T11:37:01.744+0200 I  STORAGE  [initandlisten] WiredTiger message [1590917821:744756][900:0x11f5acdc0], txn-recover: Set global recovery timestamp: (0, 0)
+2020-05-31T11:37:01.783+0200 I  RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2020-05-31T11:37:01.788+0200 I  STORAGE  [initandlisten] Timestamp monitor starting
+2020-05-31T11:37:01.788+0200 I  CONTROL  [initandlisten] 
+2020-05-31T11:37:01.788+0200 I  CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2020-05-31T11:37:01.788+0200 I  CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2020-05-31T11:37:01.788+0200 I  CONTROL  [initandlisten] 
+2020-05-31T11:37:01.788+0200 I  CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2020-05-31T11:37:01.788+0200 I  CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2020-05-31T11:37:01.788+0200 I  CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2020-05-31T11:37:01.788+0200 I  CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2020-05-31T11:37:01.788+0200 I  CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2020-05-31T11:37:01.788+0200 I  CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2020-05-31T11:37:01.788+0200 I  CONTROL  [initandlisten] 
+2020-05-31T11:37:01.790+0200 I  SHARDING [initandlisten] Marking collection local.system.replset as collection version: <unsharded>
+2020-05-31T11:37:01.791+0200 I  STORAGE  [initandlisten] Flow Control is enabled on this deployment.
+2020-05-31T11:37:01.791+0200 I  SHARDING [initandlisten] Marking collection admin.system.roles as collection version: <unsharded>
+2020-05-31T11:37:01.791+0200 I  SHARDING [initandlisten] Marking collection admin.system.version as collection version: <unsharded>
+2020-05-31T11:37:01.792+0200 I  SHARDING [initandlisten] Marking collection local.startup_log as collection version: <unsharded>
+2020-05-31T11:37:01.792+0200 I  FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/enzo/Desktop/nest-app/db/data/diagnostic.data'
+2020-05-31T11:37:01.793+0200 I  SHARDING [LogicalSessionCacheRefresh] Marking collection config.system.sessions as collection version: <unsharded>
+2020-05-31T11:37:01.793+0200 I  NETWORK  [listener] Listening on /tmp/mongodb-27017.sock
+2020-05-31T11:37:01.793+0200 I  NETWORK  [listener] Listening on 127.0.0.1
+2020-05-31T11:37:01.793+0200 I  NETWORK  [listener] waiting for connections on port 27017
+2020-05-31T11:37:01.793+0200 I  SHARDING [LogicalSessionCacheReap] Marking collection config.transactions as collection version: <unsharded>
+2020-05-31T11:37:02.003+0200 I  SHARDING [ftdc] Marking collection local.oplog.rs as collection version: <unsharded>
+2020-05-31T11:37:02.209+0200 I  NETWORK  [listener] connection accepted from 127.0.0.1:50436 #1 (1 connection now open)
+2020-05-31T11:37:02.213+0200 I  NETWORK  [conn1] received client metadata from 127.0.0.1:50436 conn1: { driver: { name: "nodejs|Mongoose", version: "3.5.7" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "19.4.0" }, platform: "'Node.js v12.16.2, LE (unified)", version: "3.5.7|5.9.16" }
+2020-05-31T11:37:10.076+0200 I  NETWORK  [listener] connection accepted from 127.0.0.1:50439 #2 (2 connections now open)
+2020-05-31T11:37:10.077+0200 I  NETWORK  [conn2] received client metadata from 127.0.0.1:50439 conn2: { driver: { name: "nodejs|Mongoose", version: "3.5.7" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "19.4.0" }, platform: "'Node.js v12.16.2, LE (unified)", version: "3.5.7|5.9.16" }
+2020-05-31T11:37:10.080+0200 I  SHARDING [conn2] Marking collection wiki.users as collection version: <unsharded>
+2020-05-31T11:37:57.946+0200 I  CONTROL  [signalProcessingThread] got signal 15 (Terminated: 15), will terminate after current cmd ends
+2020-05-31T11:37:57.947+0200 I  NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2020-05-31T11:37:57.947+0200 I  NETWORK  [listener] removing socket file: /tmp/mongodb-27017.sock
+2020-05-31T11:37:57.947+0200 I  -        [signalProcessingThread] Stopping further Flow Control ticket acquisitions.
+2020-05-31T11:37:57.947+0200 I  CONTROL  [signalProcessingThread] Shutting down free monitoring
+2020-05-31T11:37:57.947+0200 I  FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2020-05-31T11:37:57.948+0200 I  STORAGE  [signalProcessingThread] Deregistering all the collections
+2020-05-31T11:37:57.949+0200 I  STORAGE  [signalProcessingThread] Timestamp monitor shutting down
+2020-05-31T11:37:57.949+0200 I  STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2020-05-31T11:37:57.950+0200 I  STORAGE  [signalProcessingThread] Shutting down session sweeper thread
+2020-05-31T11:37:57.950+0200 I  STORAGE  [signalProcessingThread] Finished shutting down session sweeper thread
+2020-05-31T11:37:57.950+0200 I  STORAGE  [signalProcessingThread] Shutting down journal flusher thread
+2020-05-31T11:37:58.023+0200 I  STORAGE  [signalProcessingThread] Finished shutting down journal flusher thread
+2020-05-31T11:37:58.023+0200 I  STORAGE  [signalProcessingThread] Shutting down checkpoint thread
+2020-05-31T11:37:58.024+0200 I  STORAGE  [signalProcessingThread] Finished shutting down checkpoint thread
+2020-05-31T11:37:58.057+0200 I  STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2020-05-31T11:37:58.058+0200 I  CONTROL  [signalProcessingThread] now exiting
+2020-05-31T11:37:58.058+0200 I  CONTROL  [signalProcessingThread] shutting down with code:0
