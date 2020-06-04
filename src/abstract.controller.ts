@@ -1,13 +1,12 @@
-import { Get, Post, Param, Req, Body, Put, Delete, UseGuards, Res, HttpStatus } from '@nestjs/common'
+import { Get, Post, Param, Body, Put, Delete, UseGuards } from '@nestjs/common'
 import { Model } from 'mongoose'
-import { JwtAuthGuard } from './auth/guards/jwt-auth.guard'
+import { JwtAuthGuard, Roles } from './auth/guards/jwt-auth.guard'
 
 
 export abstract class AbstractController<Schema>{
 
     protected service: Model<Schema>
 
-    @UseGuards(JwtAuthGuard)
     @Get()
     async getAll(): Model<Schema[]> {
         return await this.service.find()
